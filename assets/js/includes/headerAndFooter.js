@@ -1,3 +1,4 @@
+//Header Section Start
 class MyHeder extends HTMLElement{
 
     connectedCallback(){
@@ -172,17 +173,6 @@ class MyHeder extends HTMLElement{
                                         <a class="nav-link" href="contact.html">Contact</a>
                                     </li>
                                 </ul>
-                                <div class="navbar-nav nav-element ms-4">
-                                    <div class="navbar-nav search-pop position-relative">
-                                        <i class="toggle-icon fas fa-search text-white"></i>
-                                        <div class="search-form shadow-sm bg-white">
-                                            <form action="#" method="post" class="position-relative">
-                                                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-                                                <button class="btn-search my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </nav>
                     </div>
@@ -567,5 +557,114 @@ class MyHeder extends HTMLElement{
     }
 
 }
-
 customElements.define('my-header', MyHeder);
+
+
+//Footer 1 Section Start
+class MyFooter extends HTMLElement{
+
+    connectedCallback(){
+        this.innerHTML = `
+        <footer class="full-row bg-footer text-light">
+        <div class="container">
+            <div class="row row-cols-lg-3 row-cols-1 gy-5 xxs-link-single">
+                <div class="col">
+                    <div class="footer-widget">
+                        <div class="footer-logo mb-4">
+                            <a href="#"><img src="assets/images/logo/1.png" alt="Image not found!"></a>
+                        </div>
+                        <p>Sample text has to be added.</p>
+                    </div>
+                    <div class="footer-widget">
+                        <div class="transparent-social-media-1 list-color-light hover-list-color-primary hyperlink-mr-20">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="footer-widget widget-link-double">
+                        <h4 class="widget-title text-white mb-4">Page Links</h4>
+                        <ul>
+                            <li><a href="about.html"><span class="text">About Company</span></a></li>
+                            <li><a href="#"><span class="text">Payment System</span></a></li>
+                            <li><a href="terms-and-condition.html"><span class="text">Terms and Conditions</span></a></li>
+                            <li><a href="our-history.html"><span class="text">Company History</span></a></li>
+                            <li><a href="#"><span class="text">Consultation</span></a></li>
+                            <li><a href="career.html"><span class="text">Careers</span></a></li>
+                            <li><a href="how-it-work.html"><span class="text">How It Work</span></a></li>
+                            <li><a href="#"><span class="text">Event Coverage</span></a></li>
+                            <li><a href="#"><span class="text">Emeargency Support</span></a></li>
+                            <li><a href="#"><span class="text">Technology Support</span></a></li>
+                            <li><a href="#"><span class="text">Guard Supply</span></a></li>
+                            <li><a href="#"><span class="text">Trasted Partner</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="footer-widget widget-newsletter">
+                        <h4 class="widget-title text-white mb-4">Newslatter</h4>
+                        <p>Subscribe to our news and get most important industry news</p>
+                        <div class="outline-form-style-1 newsletter-number mt-30">
+                            <form class="form-outline square-shape" action="#" method="post">
+                                <input type="text" class="form-control input-field bg-light" name="search" placeholder="Email Address">
+                                <button type="submit" name="submit" class="submit bg-primary">Subscribes</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+        `;
+    }
+
+}
+customElements.define('my-footer', MyFooter);
+
+
+//Footer Bottom 1 Section Start
+class MyFooterBottom extends HTMLElement{
+
+    connectedCallback(){
+        this.innerHTML = `
+        <div class="full-row bg-dark fs-13 py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="d-flex flex-wrap justify-content-between align-items-center">
+                            <div class="nav-style-1 list-color-white hover-list-color-primary list-font-13 list-mr-20">
+                                <ul>
+                                    <li><a href="how-it-work.html">How It Work</a></li>
+                                    <li><a href="faq.html">FAQ</a></li>
+                                    <li><a href="#">Trusty and Safty</a></li>
+                                    <li><a href="#">Payment</a></li>
+                                    <li><a href="sign-in.html">My Account</a></li>
+                                    <li><a href="general-support.html">General Support</a></li>
+                                </ul>
+                            </div>
+                            <span class="copyright-text text-white">© 2023 All Rights Reserved by <a target=”_blank” href="https://www.mcxpert.com/">McXpert Technologies</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        `;
+    }
+
+}
+customElements.define('my-footer-bottom', MyFooterBottom);
+
+
+//Scroll to top
+class MyScroll extends HTMLElement{
+
+    connectedCallback(){
+        this.innerHTML = `
+        <a href="#" class="bg-primary text-white" id="scroll"><i class="fa fa-angle-up"></i></a>
+        `;
+    }
+
+}
+customElements.define('my-scroll', MyScroll);

@@ -25,7 +25,7 @@ class MyHeder extends HTMLElement{
                                 <a class="nav-link" href="services.html">services</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="client.html">Client</a>
+                                <a class="nav-link" href="client.html">Clientele</a>
                             </li>
                             <li class="nav-item">
                             <a class="nav-link" href="contact.html">Contact</a>
@@ -58,7 +58,7 @@ class MyHeder extends HTMLElement{
                                         <a class="nav-link" href="services.html">services</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="client.html">Client</a>
+                                        <a class="nav-link" href="client.html">Clientele</a>
                                     </li>
                                     <li class="nav-item">
                                     <a class="nav-link" href="contact.html">Contact</a>

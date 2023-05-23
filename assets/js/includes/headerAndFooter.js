@@ -99,7 +99,7 @@ class MyHeder extends HTMLElement{
                                                 <a class="nav-link" href="services.html">services</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href="client.html">Client</a>
+                                                <a class="nav-link" href="client.html">Clientele</a>
                                             </li>
                                             <li class="nav-item">
                                             <a class="nav-link" href="contact.html">Contact</a>
@@ -153,7 +153,7 @@ class MyFooter extends HTMLElement{
                             <li><a href="index.html"><span class="text">Home</span></a></li>
                             <li><a href="about.html"><span class="text">About</span></a></li>
                             <li><a href="services.html"><span class="text">Services</span></a></li>
-                            <li><a href="client.html"><span class="text">Client</span></a></li>
+                            <li><a href="client.html"><span class="text">Clientele</span></a></li>
                             <li><a href="contact.html"><span class="text">Contact</span></a></li>
                             
                         </ul>
@@ -190,17 +190,7 @@ class MyFooterBottom extends HTMLElement{
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <div class="d-flex flex-wrap justify-content-between align-items-center">
-                            <div class="nav-style-1 list-color-white hover-list-color-primary list-font-13 list-mr-20">
-                                <ul>
-                                    <li><a href="how-it-work.html">How It Work</a></li>
-                                    <li><a href="faq.html">FAQ</a></li>
-                                    <li><a href="#">Trusty and Safty</a></li>
-                                    <li><a href="#">Payment</a></li>
-                                    <li><a href="sign-in.html">My Account</a></li>
-                                    <li><a href="general-support.html">General Support</a></li>
-                                </ul>
-                            </div>
+                        <div class="d-flex flex-wrap justify-content-center align-items-center">
                             <span class="copyright-text text-white">© 2023 All Rights Reserved by <a target=”_blank” href="https://www.mcxpert.com/">McXpert Technologies</a></span>
                         </div>
                     </div>
@@ -278,7 +268,7 @@ class MyOtherHeder extends HTMLElement{
                                         <a class="nav-link" href="services.html">Services</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="client.html">Client</a>
+                                        <a class="nav-link" href="client.html">Clientele</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="contact.html">Contact</a>
@@ -311,7 +301,7 @@ class MyOtherHeder extends HTMLElement{
                                             <a class="nav-link" href="services.html">Services</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="client.html">Client</a>
+                                            <a class="nav-link" href="client.html">Clientele</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="contact.html">Contact</a>
@@ -352,7 +342,7 @@ class MyOtherHeder extends HTMLElement{
                                                             <a class="nav-link" href="services.html">Services</a>
                                                         </li>
                                                         <li class="nav-item">
-                                                            <a class="nav-link" href="client.html">Client</a>
+                                                            <a class="nav-link" href="client.html">Clientele</a>
                                                         </li>
                                                         <li class="nav-item">
                                                             <a class="nav-link" href="contact.html">Contact</a>

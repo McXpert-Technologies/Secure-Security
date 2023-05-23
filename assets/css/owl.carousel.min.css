@@ -59,6 +59,10 @@
     width: 100%
 }
 
+.client-img{
+    width: 50%!important;
+}
+
 .owl-carousel .owl-dots.disabled,
 .owl-carousel .owl-nav.disabled {
     display: none

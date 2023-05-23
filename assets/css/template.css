@@ -1021,6 +1021,10 @@ a::after,
     padding: 80px 0
 }
 
+.semi-row {
+    padding: 20px 0!important;
+}
+
 .p-35 {
     padding: 35px
 }

@@ -10114,7 +10114,7 @@ footer.text-light [class*="widget-link"]>ul>li>a:hover,
     padding: 20px;
     box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.07);
     top: 50px;
-    left: -80px;
+    left: -50px;
 }
 
 .image-with-achievement .count-wrap .count {

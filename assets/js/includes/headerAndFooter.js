@@ -222,31 +222,6 @@ class MyOtherHeder extends HTMLElement{
     connectedCallback(){
         this.innerHTML = `
         <header id="header" class="default-header bg-default nav-initial nav-on-top">
-            <div class="top-header d-none d-lg-block py-10 fw-500">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6 top-header-col">
-                            <ul class="address-menu d-flex text-general gap-4">
-                                <li class="d-flex align-items-center gap-1"><i class="fas fa-phone text-primary"></i> (+94) 11 2827762 </li>
-                                <li class="d-flex align-items-center gap-1"><i class="fas fa-map-marker-alt text-primary"></i> No 92 Kandewatta Road,Nugegoda,Colombo</li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-6 d-flex top-header-col justify-content-end align-items-center">
-                            <div class="d-flex align-items-center justify-content-end gap-4">
-                                <div class="dropdown">
-                                    <a href="#" class="dropdown-toggle text-general">Help and Support</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="how-it-work.html">How It Work</a></li>
-                                        <li><a class="dropdown-item" href="general-support.html">General Support</a></li>
-                                        <li><a class="dropdown-item" href="help-center.html">Help Center</a></li>
-                                        <li><a class="dropdown-item" href="support-article-details.html">Support Article</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="main-nav py-3 d-none d-lg-block">
                 <div class="container">
                     <div class="row">

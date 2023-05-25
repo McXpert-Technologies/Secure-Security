@@ -2571,6 +2571,11 @@ ul.product_list_widget {
     width: 100%;
 }
 
+.active-service{
+    background-color: var(--theme-primary-color)!important;
+    color:white!important;
+}
+
 .sidebar-nav li.active a,
 .sidebar-nav li a:hover {
     background-color: var(--theme-primary-color);

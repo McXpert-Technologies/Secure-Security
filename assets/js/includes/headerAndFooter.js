@@ -19,7 +19,7 @@ class MyHeder extends HTMLElement{
                                 <a class="nav-link" href="index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="about.html">About</a>
+                                <a class="nav-link" href="about.html">About Us</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="services.html">services</a>
@@ -28,7 +28,7 @@ class MyHeder extends HTMLElement{
                                 <a class="nav-link" href="client.html">Clientele</a>
                             </li>
                             <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                            <a class="nav-link" href="contact.html">Contact Us</a>
                             </li>
                         </ul>
                             </div>
@@ -52,7 +52,7 @@ class MyHeder extends HTMLElement{
                                         <a class="nav-link" href="index.html">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="about.html">About</a>
+                                        <a class="nav-link" href="about.html">About Us</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="services.html">services</a>
@@ -61,7 +61,7 @@ class MyHeder extends HTMLElement{
                                         <a class="nav-link" href="client.html">Clientele</a>
                                     </li>
                                     <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact</a>
+                                    <a class="nav-link" href="contact.html">Contact Us</a>
                                     </li>
                                 </ul>
                             </div>
@@ -93,7 +93,7 @@ class MyHeder extends HTMLElement{
                                                 <a class="nav-link" href="index.html">Home</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href="about.html">About</a>
+                                                <a class="nav-link" href="about.html">About Us</a>
                                             </li>
                                             <li class="nav-item">
                                                 <a class="nav-link" href="services.html">services</a>
@@ -102,7 +102,7 @@ class MyHeder extends HTMLElement{
                                                 <a class="nav-link" href="client.html">Clientele</a>
                                             </li>
                                             <li class="nav-item">
-                                            <a class="nav-link" href="contact.html">Contact</a>
+                                            <a class="nav-link" href="contact.html">Contact Us</a>
                                             </li>
                                         </ul>
                                             </div>
@@ -151,10 +151,10 @@ class MyFooter extends HTMLElement{
                         <h4 class="widget-title text-white mb-4">Page Links</h4>
                         <ul>
                             <li><a href="index.html"><span class="text">Home</span></a></li>
-                            <li><a href="about.html"><span class="text">About</span></a></li>
+                            <li><a href="about.html"><span class="text">About Us</span></a></li>
                             <li><a href="services.html"><span class="text">Services</span></a></li>
                             <li><a href="client.html"><span class="text">Clientele</span></a></li>
-                            <li><a href="contact.html"><span class="text">Contact</span></a></li>
+                            <li><a href="contact.html"><span class="text">Contact Us</span></a></li>
                             
                         </ul>
                     </div>
@@ -227,7 +227,7 @@ class MyOtherHeder extends HTMLElement{
                     <div class="row">
                         <div class="col-lg-12">
                             <nav class="navbar navbar-expand-lg navbar-light text-uppercase nav-dark nav-primary-hover nav-primary-active fw-500">
-                                <a class="navbar-brand" href="index.html"><img class="nav-logo" src="assets/images/logo/2.png" alt="Patron"></a>
+                                <a class="navbar-brand" href="index.html"><img class="nav-logo" src="assets/images/logo/1.png" alt="Patron"></a>
                                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-navbar-content" aria-controls="main-navbar-content" aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
@@ -237,7 +237,7 @@ class MyOtherHeder extends HTMLElement{
                                         <a class="nav-link" href="index.html">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="about.html">About</a>
+                                        <a class="nav-link" href="about.html">About Us</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="services.html">Services</a>
@@ -246,7 +246,7 @@ class MyOtherHeder extends HTMLElement{
                                         <a class="nav-link" href="client.html">Clientele</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="contact.html">Contact</a>
+                                        <a class="nav-link" href="contact.html">Contact Us</a>
                                     </li>
                                 </ul>
                                 </div>
@@ -260,7 +260,7 @@ class MyOtherHeder extends HTMLElement{
                     <div class="row align-items-center">
                         <div class="col">
                             <nav class="navbar navbar-expand-lg navbar-light text-uppercase nav-dark nav-primary-hover nav-primary-active fw-500">
-                                <a class="navbar-brand" href="index.html"><img class="nav-logo" src="assets/images/logo/2.png" alt="Patron"></a>
+                                <a class="navbar-brand" href="index.html"><img class="nav-logo" src="assets/images/logo/1.png" alt="Patron"></a>
                                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#sticky-navbar-content" aria-controls="sticky-navbar-content" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                               </button>
@@ -270,7 +270,7 @@ class MyOtherHeder extends HTMLElement{
                                             <a class="nav-link" href="index.html">Home</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="about.html">About</a>
+                                            <a class="nav-link" href="about.html">About Us</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="services.html">Services</a>
@@ -279,7 +279,7 @@ class MyOtherHeder extends HTMLElement{
                                             <a class="nav-link" href="client.html">Clientele</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="contact.html">Contact</a>
+                                            <a class="nav-link" href="contact.html">Contact Us</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -311,7 +311,7 @@ class MyOtherHeder extends HTMLElement{
                                                             <a class="nav-link" href="index.html">Home</a>
                                                         </li>
                                                         <li class="nav-item">
-                                                            <a class="nav-link" href="about.html">About</a>
+                                                            <a class="nav-link" href="about.html">About Us</a>
                                                         </li>
                                                         <li class="nav-item">
                                                             <a class="nav-link" href="services.html">Services</a>
@@ -320,7 +320,7 @@ class MyOtherHeder extends HTMLElement{
                                                             <a class="nav-link" href="client.html">Clientele</a>
                                                         </li>
                                                         <li class="nav-item">
-                                                            <a class="nav-link" href="contact.html">Contact</a>
+                                                            <a class="nav-link" href="contact.html">Contact Us</a>
                                                         </li>
                                                     </ul>
                                                 </div>

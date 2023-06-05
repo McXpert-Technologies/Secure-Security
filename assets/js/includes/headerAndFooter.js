@@ -1,8 +1,7 @@
 //Header Section Start
-class MyHeder extends HTMLElement{
-
-    connectedCallback(){
-        this.innerHTML = `
+class MyHeder extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `
         <header id="header" class="nav-on-banner">
         <div class="main-nav py-3 d-none d-lg-block">
             <div class="container">
@@ -117,17 +116,14 @@ class MyHeder extends HTMLElement{
         </div>
     </header>
         `;
-    }
-
+  }
 }
-customElements.define('my-header', MyHeder);
-
+customElements.define("my-header", MyHeder);
 
 //Footer 1 Section Start
-class MyFooter extends HTMLElement{
-
-    connectedCallback(){
-        this.innerHTML = `
+class MyFooter extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `
         <footer class="full-row bg-footer text-light">
         <div class="container">
             <div class="row row-cols-lg-3 row-cols-1 gy-5 xxs-link-single">
@@ -136,7 +132,7 @@ class MyFooter extends HTMLElement{
                         <div class="footer-logo mb-4">
                             <a href="#"><img src="assets/images/logo/1.png" alt="Image not found!"></a>
                         </div>
-                        <p>Sample text has to be added.</p>
+                        <p style="padding-right:0px;">Welcome to Secure Security & Investigations (Pvt) Ltd. We are a team of dedicated who specialize in providing top-notch security solutions to our clients.</p>
                     </div>
                     <div class="footer-widget">
                         <div class="transparent-social-media-1 list-color-light hover-list-color-primary hyperlink-mr-20">
@@ -148,7 +144,7 @@ class MyFooter extends HTMLElement{
                 </div>
                 <div class="col">
                     <div class="footer-widget widget-link-double">
-                        <h4 class="widget-title text-white mb-4">Page Links</h4>
+                        <h4 class="widget-title text-white mb-4">Quick Links</h4>
                         <ul>
                             <li><a href="index.html"><span class="text">Home</span></a></li>
                             <li><a href="about.html"><span class="text">About Us</span></a></li>
@@ -160,32 +156,38 @@ class MyFooter extends HTMLElement{
                     </div>
                 </div>
                 <div class="col">
-                    <div class="footer-widget widget-newsletter">
-                        <h4 class="widget-title text-white mb-4">Newslatter</h4>
-                        <p>Subscribe to our news and get most important industry news</p>
-                        <div class="outline-form-style-1 newsletter-number mt-30">
-                            <form class="form-outline square-shape" action="#" method="post">
-                                <input type="text" class="form-control input-field bg-light" name="search" placeholder="Email Address">
-                                <button type="submit" name="submit" class="submit bg-primary">Subscribes</button>
-                            </form>
-                        </div>
+                    <div class="footer-widget widget-contact-1">
+                        <h3 class="widget-title text-white mb-4">Get In Touch</h3>
+                        <ul>
+                            <li>
+                                <h6 class="title text-white">Address :</h6>
+                                <span class="text">
+                                No 92 Kandewatta Road, Nugegoda, Colombo
+                                Kandy Office</span>
+                            </li>
+                            <li>
+                                <h6 class="title text-white">Phone :</h6>
+                                <span class="text">(+94) 11 2821997</span>
+                            </li>
+                            <li>
+                                <h6 class="title text-white">Email :</h6>
+                                <span class="text">secure@sltnet.lk</span>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
         `;
-    }
-
+  }
 }
-customElements.define('my-footer', MyFooter);
-
+customElements.define("my-footer", MyFooter);
 
 //Footer Bottom 1 Section Start
-class MyFooterBottom extends HTMLElement{
-
-    connectedCallback(){
-        this.innerHTML = `
+class MyFooterBottom extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `
         <div class="full-row bg-dark fs-13 py-4">
             <div class="container">
                 <div class="row">
@@ -198,29 +200,24 @@ class MyFooterBottom extends HTMLElement{
             </div>
         </div>
         `;
-    }
-
+  }
 }
-customElements.define('my-footer-bottom', MyFooterBottom);
-
+customElements.define("my-footer-bottom", MyFooterBottom);
 
 //Scroll to top
-class MyScroll extends HTMLElement{
-
-    connectedCallback(){
-        this.innerHTML = `
+class MyScroll extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `
         <a href="#" class="bg-primary text-white" id="scroll"><i class="fa fa-angle-up"></i></a>
         `;
-    }
-
+  }
 }
-customElements.define('my-scroll', MyScroll);
+customElements.define("my-scroll", MyScroll);
 
 //Other Page Header Section Start
-class MyOtherHeder extends HTMLElement{
-
-    connectedCallback(){
-        this.innerHTML = `
+class MyOtherHeder extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `
         <header id="header" class="default-header bg-default nav-initial nav-on-top">
             <div class="main-nav py-3 d-none d-lg-block">
                 <div class="container">
@@ -335,7 +332,6 @@ class MyOtherHeder extends HTMLElement{
             </div>
         </header>
         `;
-    }
-
+  }
 }
-customElements.define('my-other-header', MyOtherHeder);
+customElements.define("my-other-header", MyOtherHeder);

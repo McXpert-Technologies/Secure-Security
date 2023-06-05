@@ -163,7 +163,7 @@ class MyFooter extends HTMLElement {
                                 <h6 class="title text-white">Address :</h6>
                                 <span class="text">
                                 No 92 Kandewatta Road, Nugegoda, Colombo
-                                Kandy Office</span>
+                                </span>
                             </li>
                             <li>
                                 <h6 class="title text-white">Phone :</h6>

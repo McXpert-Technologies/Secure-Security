@@ -12764,6 +12764,9 @@ p:last-child {
     position: relative;
 }
 
+.mr-2{
+    margin-right: 10px;
+}
 
 /* Support Thumbnail */
 

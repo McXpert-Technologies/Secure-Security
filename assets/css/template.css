@@ -876,12 +876,64 @@ a.demo-example span small {
     bottom: 0;
 }
 
+[class*="down-line"]:before {
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 3px;
+    left: 0;
+    bottom: 0;
+}
+
 [class*="down-line"].text-center:before {
     left: 50%;
     transform: translateX(-50%);
 }
 
 [class*="down-line"].text-end:before {
+    right: 0;
+    left: auto;
+}
+
+/* ********************* */
+
+[class*="overlay-"],
+[class*="down-line-2"] {
+    position: relative;
+}
+
+[class*="down-line-2"] {
+    padding-bottom: 20px
+}
+
+[class*="down-line-2"].tagline {
+    padding-bottom: 10px
+}
+
+[class*="down-line-2"]:before {
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 3px;
+    left: 0;
+    bottom: 0;
+}
+
+[class*="down-line-2"]:before {
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 3px;
+    left: 0;
+    bottom: 0;
+}
+
+[class*="down-line-2"].text-center:before {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+[class*="down-line-2"].text-end:before {
     right: 0;
     left: auto;
 }

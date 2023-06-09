@@ -11,8 +11,9 @@ $("#submit").click(function (){
 
 
     let name = document.getElementById('name').value;
-    let email = document.getElementById('email').value;
-    let subject = document.getElementById('subject').value;
+    let companyName = document.getElementById('companyName').value;
+    let industry = document.getElementById('industry').value;
+    let location = document.getElementById('location').value;
     let message = document.getElementById('message').value;
 
     var status = validateItemForm();
@@ -22,18 +23,19 @@ $("#submit").click(function (){
         return;
     }
 
-    let id = "contact";
+    let id = "quote";
 
     let dt = {
         id:id,
         name:name,
-        email:email,
-        subject:subject,
+        companyName:companyName,
+        industry:industry,
+        location:location,
         message:message,
     };
 
     $.ajax({
-        url: './data.php',
+        url: './dataQuote.php',
         type: 'POST',
         data: dt,
         beforeSend: function(){
@@ -44,7 +46,7 @@ $("#submit").click(function (){
             // console.log(res);
             if (res == 1){
                 $("#alertError").hide();
-                $("#alertSuccess").text("Your email has been Successfully sent, Thank you.");
+                $("#alertSuccess").text("Your quotation has been Successfully sent, Thank you.");
                 $("#alertSuccess").fadeTo(2000, 500).slideUp(500, function() {
                     $("#alertSuccess").slideUp(500);
                 });
@@ -52,14 +54,15 @@ $("#submit").click(function (){
                 // $("#loading").hide();
 
                 document.getElementById('name').value = "";
-                document.getElementById('email').value = "";
-                document.getElementById('subject').value = "";
+                document.getElementById('companyName').value = "";
+                document.getElementById('industry').value = "";
+                document.getElementById('location').value = "";
                 document.getElementById('message').value = "";
 
                 $("#submit").prop("disabled", false);
 
             }else {
-                $("#alertError").text("Error occurred while sending email. Please try again later.");
+                $("#alertError").text("Error occurred while sending quotation. Please try again later.");
                 $("#alertError").fadeTo(2000, 500).slideUp(500, function() {
                     $("#alertError").slideUp(500);
                 });
@@ -79,14 +82,17 @@ function validateItemForm() {
         return "Enter Name.";
     }
 
-    if ($("#email").val().trim() == "") {
-        return "Enter Email.";
+    if ($("#companyName").val().trim() == "") {
+        return "Enter company name.";
     }
 
-    if ($("#subject").val().trim() == "") {
-        return "Enter your Subject.";
+    if ($("#industry").val().trim() == "") {
+        return "Enter your industry.";
     }
 
+    if ($("#location").val().trim() == "") {
+        return "Enter your location.";
+    }
     if ($("#message").val().trim() == "") {
         return "Enter your message.";
     }

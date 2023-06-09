@@ -74,25 +74,25 @@
                             <span class="d-table fs-18 fst-italic text-secondary">Get a Quote Today (6
                                 Hours)</span>
                                 <hr class="mb-4">
-                            <form action="#" method="post">
+                            <form method="post">
                                 <div class="row row-cols-1 g-4">
                                     <div class="col">
                                         <!-- <label for="name">Name</label> -->
-                                        <input class="form-control bg-light" name="name" placeholder="Name" type="text">
+                                        <input class="form-control bg-light" id="name" name="name" placeholder="Name" type="text">
                                     </div>
                                     <div class="col">
                                         <!-- <label for="name">Company Name</label> -->
-                                        <input class="form-control bg-light" name="companyName"
+                                        <input class="form-control bg-light" id="companyName" name="companyName"
                                             placeholder="Company Name" type="text">
                                     </div>
                                     <div class="col">
                                         <!-- <label for="name">Industry Name</label> -->
-                                        <input class="form-control bg-light" name="industry" placeholder="Industry"
+                                        <input class="form-control bg-light" id="industry"  name="industry" placeholder="Industry"
                                             type="text">
                                     </div>
                                     <div class="col">
                                         <!-- <label for="name">Location</label> -->
-                                        <input class="form-control bg-light" name="ocation" placeholder="Location"
+                                        <input class="form-control bg-light" id="location" name="location" placeholder="Location"
                                             type="text">
                                     </div>
                                     <div class="col">
@@ -100,11 +100,17 @@
                                         <span class="fst-italic">(Security Operation,
                                             No of Security Officers
                                             Required, etc)</span> -->
-                                        <textarea class="form-control bg-light" id="message" rows="5" name="message"
+                                        <textarea class="form-control bg-light" id="message" id="message" rows="5" name="message"
                                             placeholder="Requirement in Brief ( Security Operation, No of Security Officers Required, etc )"></textarea>
                                     </div>
                                     <div class="col">
-                                        <input class="btn btn-secondary-filter rounded-0" value="Submit" type="submit">
+                                        <input class="btn btn-secondary-filter rounded-0" id="submit" value="Submit" type="button">
+                                    </div>
+                                    <div class="col mt-3 ml-3">
+                                        <div id="alertSuccess" class="alert alert-success" style="width: 100%">
+                                        </div>
+                                        <div id="alertError" class="alert alert-danger" style="width: 100%">
+                                        </div>
                                     </div>
                                 </div>
                             </form>
@@ -174,6 +180,7 @@
     <script src="assets/js/paraxify.min.js"></script>
     <script src="assets/js/includes/headerAndFooter.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script src="assets/js/quote.js"></script>
 
 </body>
 

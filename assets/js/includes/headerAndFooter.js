@@ -162,12 +162,17 @@ class MyFooter extends HTMLElement {
                             <li>
                                 <h6 class="title text-white"><i class="fa fa-map-marker mr-2"></i>Address :</h6>
                                 <span class="text">
+                
                                 No 92 Kandewatta Road, Nugegoda, Colombo
+                                
+
+
+
                                 </span>
                             </li>
                             <li>
                                 <h6 class="title text-white"> <i class="fa fa-phone mr-2"></i> Phone :</h6>
-                                <span class="text">(+94) 11 2821997</span>
+                                <span class="text">(+94) 11 2821997, (+94) 11 2827762, (+94) 11 2821996</span>
                             </li>
                             <li>
                                 <h6 class="title text-white"><i class="fa fa-envelope mr-2"></i> Email :</h6>

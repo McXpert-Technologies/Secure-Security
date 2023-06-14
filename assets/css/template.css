@@ -964,7 +964,7 @@ a.demo-example span small {
 
   .text-overlay span{
     color: white;
-    font-size: 0.8rem!important;
+    font-size: 0.6rem!important;
   }
 
   .text-overlay hr{
@@ -977,7 +977,12 @@ a.demo-example span small {
   }
   .text-overlay a{
     color: white;
-    font-size: 1.1rem!important;
+    font-size: 0.8rem!important;
+  }
+
+  .text-position{
+    font-size: 0.1rem!important;
+    color: red;
   }
 
   /* Modal Content/Box */

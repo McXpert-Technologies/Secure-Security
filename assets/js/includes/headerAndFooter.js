@@ -124,7 +124,7 @@ customElements.define("my-header", MyHeder);
 class MyFooter extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-        <footer class="full-row bg-footer text-light">
+        <footer class=" bg-footer text-light">
         <div class="container">
             <div class="row row-cols-lg-3 row-cols-1 gy-5 xxs-link-single">
                 <div class="col">
@@ -174,7 +174,7 @@ class MyFooter extends HTMLElement {
                                 <h6 class="title text-white"> <i class="fa fa-phone mr-2"></i> Phone :</h6>
                                 <span class="text">(+94) 11 2821997, (+94) 11 2827762, (+94) 11 2821996</span>
                             </li>
-                            <li>
+                            <li class="mb-5">
                                 <h6 class="title text-white"><i class="fa fa-envelope mr-2"></i> Email :</h6>
                                 <span class="text">secure@sltnet.lk</span>
                             </li>

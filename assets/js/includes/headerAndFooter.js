@@ -132,7 +132,7 @@ class MyFooter extends HTMLElement {
                         <div class="footer-logo mb-4">
                             <a href="#"><img src="assets/images/logo/Logo1.png" alt="Image not found!"></a>
                         </div>
-                        <p style="padding-right:30px;">Welcome to Secure Security & Investigations (Pvt) Ltd. We are a team of dedicated who specialize in providing top-notch security solutions to our clients.</p>
+                        <p style="padding-right:30px;">We are a team of dedicated professionals who specialize in providing top-notch security solutions.</p>
                     </div>
                     <div class="footer-widget">
                         <div class="transparent-social-media-1 list-color-light hover-list-color-primary hyperlink-mr-20">

@@ -132,7 +132,7 @@ class MyFooter extends HTMLElement {
                         <div class="footer-logo mb-4">
                             <a href="#"><img src="assets/images/logo/Logo1.png" alt="Image not found!"></a>
                         </div>
-                        <p style="padding-right:0px;">Welcome to Secure Security & Investigations (Pvt) Ltd. We are a team of dedicated who specialize in providing top-notch security solutions to our clients.</p>
+                        <p style="padding-right:0px;">Welcome to Secure Security & Investigations (Pvt) Ltd. Welcome to Secure Security & Investigations (Pvt) Ltd. Welcome to Secure Security & Investigations (Pvt) Ltd. Welcome to Secure Security & Investigations (Pvt) Ltd.</p>
                     </div>
                     <div class="footer-widget">
                         <div class="transparent-social-media-1 list-color-light hover-list-color-primary hyperlink-mr-20">
@@ -229,7 +229,7 @@ class MyOtherHeder extends HTMLElement {
                     <div class="row">
                         <div class="col-lg-12">
                             <nav class="navbar navbar-expand-lg navbar-light text-uppercase nav-dark nav-primary-hover nav-primary-active fw-500">
-                                <a class="navbar-brand" href="index.html"><img class="nav-logo" src="assets/images/logo/logo2.png" alt="Patron"></a>
+                                <a class="navbar-brand" href="index.html"><img class="nav-logo" src="assets/images/logo/logo2.png" alt="logo"></a>
                                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-navbar-content" aria-controls="main-navbar-content" aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="navbar-toggler-icon"></span>
                                 </button>

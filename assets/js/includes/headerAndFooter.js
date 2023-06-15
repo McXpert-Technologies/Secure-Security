@@ -8,7 +8,7 @@ class MyHeder extends HTMLElement {
                 <div class="row">
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg navbar-light text-uppercase nav-white nav-primary-hover nav-primary-active fw-400">
-                            <a class="navbar-brand" href="index.html"><img class="nav-logo" src="assets/images/logo/logo1.png" alt="Logo"></a>
+                            <a class="navbar-brand" href="index.html"><img class="nav-logo" src="assets/images/logo/logo12.png" alt="Logo"></a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-navbar-content" aria-controls="main-navbar-content" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                           </button>
@@ -124,13 +124,13 @@ customElements.define("my-header", MyHeder);
 class MyFooter extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-        <footer class=" bg-footer text-light">
+        <footer class=" bg-footer text-light pt-5">
         <div class="container">
             <div class="row row-cols-lg-3 row-cols-1 gy-5 xxs-link-single">
                 <div class="col">
                     <div class="footer-widget">
                         <div class="footer-logo mb-4">
-                            <a href="#"><img src="assets/images/logo/Logo1.png" alt="Image not found!"></a>
+                            <a href="#"><img src="assets/images/logo/Flogo.png" alt="Image not found!"></a>
                         </div>
                         <p style="padding-right:30px;">We are a team of dedicated professionals who specialize in providing top-notch security solutions.</p>
                     </div>

@@ -11198,7 +11198,7 @@ Responsive Media Query CSS
     }
 
     img.mobile-logo {
-        width: 200px;
+        width: 150px;
         aspect-ratio: auto 130 / 49;
     }
 

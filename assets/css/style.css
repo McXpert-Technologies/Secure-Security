@@ -11,12 +11,12 @@
 **/
 
 img.nav-logo {
-    width: 130px;
+    width: 60px;
     aspect-ratio:  auto 130/49;
 }
 
 .footer-logo img {
-    width: 130px;
+    width: 200px;
 }
 
 h1,

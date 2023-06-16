@@ -8,7 +8,7 @@ class MyHeder extends HTMLElement {
                 <div class="row">
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg navbar-light text-uppercase nav-white nav-primary-hover nav-primary-active fw-400">
-                            <a class="navbar-brand" href="index.html"><img class="nav-logo" src="assets/images/logo/logo12.png" alt="Logo"></a>
+                            <a class="navbar-brand" href="index.html"><img class="nav-logo" src="assets/images/logo/logo.png" alt="Logo"></a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-navbar-content" aria-controls="main-navbar-content" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                           </button>
@@ -41,7 +41,7 @@ class MyHeder extends HTMLElement {
                 <div class="row align-items-center">
                     <div class="col">
                         <nav class="navbar navbar-expand-lg navbar-light text-uppercase nav-white nav-primary-hover nav-primary-active">
-                            <a class="navbar-brand" href="index.html"><img class="nav-logo" src="assets/images/logo/logo1.png" alt="Patron"></a>
+                            <a class="navbar-brand" href="index.html"><img class="nav-logo" src="assets/images/logo/logo.png" alt="Patron"></a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#sticky-navbar-content" aria-controls="sticky-navbar-content" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                           </button>
@@ -77,7 +77,7 @@ class MyHeder extends HTMLElement {
                             <div class="nav-leftpush-overlay">
                                 <nav class="navbar navbar-expand-lg navbar-light justify-content-between nav-dark nav-primary-hover">
                                     <a class="navbar-brand" href="#" rel="home">
-                                        <img class="mobile-logo" src="assets/images/logo/logo1.png" alt="Logo">
+                                        <img class="mobile-logo" src="assets/images/logo/1.png" alt="Logo">
                                     </a> <button type="button" class="push-nav-toggle d-lg-none bg-white rounded-0">
                                         <span class="navbar-toggler-icon"></span>
                                     </button>
@@ -132,7 +132,7 @@ class MyFooter extends HTMLElement {
                         <div class="footer-logo mb-4">
                             <a href="#"><img src="assets/images/logo/Flogo.png" alt="Image not found!"></a>
                         </div>
-                        <p style="padding-right:30px;">We are a team of dedicated professionals who specialize in providing top-notch security solutions.</p>
+                        <p style="padding-right:30px; padding-top: 20px;">We are a team of dedicated professionals who specialize in providing top-notch security solutions.</p>
                     </div>
                     <div class="footer-widget">
                         <div class="transparent-social-media-1 list-color-light hover-list-color-primary hyperlink-mr-20">
@@ -229,7 +229,7 @@ class MyOtherHeder extends HTMLElement {
                     <div class="row">
                         <div class="col-lg-12">
                             <nav class="navbar navbar-expand-lg navbar-light text-uppercase nav-dark nav-primary-hover nav-primary-active fw-500">
-                                <a class="navbar-brand" href="index.html"><img class="nav-logo" src="assets/images/logo/logo2.png" alt="logo"></a>
+                                <a class="navbar-brand" href="index.html"><img class="nav-logo" src="assets/images/logo/logo.png" alt="logo"></a>
                                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-navbar-content" aria-controls="main-navbar-content" aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
@@ -262,7 +262,7 @@ class MyOtherHeder extends HTMLElement {
                     <div class="row align-items-center">
                         <div class="col">
                             <nav class="navbar navbar-expand-lg navbar-light text-uppercase nav-dark nav-primary-hover nav-primary-active fw-500">
-                                <a class="navbar-brand" href="index.html"><img class="nav-logo" src="assets/images/logo/1.png" alt="Patron"></a>
+                                <a class="navbar-brand" href="index.html"><img class="nav-logo" src="assets/images/logo/logo.png" alt="Patron"></a>
                                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#sticky-navbar-content" aria-controls="sticky-navbar-content" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                               </button>
@@ -298,7 +298,7 @@ class MyOtherHeder extends HTMLElement {
                                 <div class="nav-leftpush-overlay">
                                     <nav class="navbar navbar-expand-lg navbar-light justify-content-between nav-dark nav-primary-hover">
                                         <a class="navbar-brand" href="#" rel="home">
-                                            <img class="mobile-logo" src="assets/images/logo/2.png" alt="Patron">
+                                            <img class="mobile-logo" st src="assets/images/logo/1.png" alt="Patron">
                                         </a> <button type="button" class="push-nav-toggle d-lg-none bg-white rounded-0">
                                             <span class="navbar-toggler-icon"></span>
                                         </button>

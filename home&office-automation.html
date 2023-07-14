@@ -29,6 +29,33 @@
     <link rel="stylesheet" href="assets/css/template.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/category/default.css">
+
+    <style>
+        .benefits-list {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 20px;
+          padding: 0;
+          list-style: none;
+        }
+      
+        .benefits-list li {
+          display: flex;
+          align-items: center;
+        }
+      
+        .benefits-list li .icon {
+          margin-right: 10px;
+          color: #f8b906; /* Customize the icon color as desired */
+          font-size: 24px; /* Adjust the icon size as desired */
+        }
+      
+        .benefits-list li p {
+          margin: 0;
+          font-size: 16px;
+          line-height: 1.4;
+        }
+      </style>
 </head>
 
 <body>
@@ -40,7 +67,8 @@
         <!--============================== Header Section End ==============================-->
 
         <!--============================== Page Banner 1 Section Start ==============================-->
-        <div id="page-banner" class="page-title bg-light title-text-dark title-large" style="background-image: url('assets/images/background/23.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover;">
+        <div id="page-banner" class="page-title bg-light title-text-dark title-large"
+            style="background-image: url('assets/images/background/23.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover;">
             <div class="container">
                 <div class="row">
                     <div class="col">
@@ -70,10 +98,19 @@
                         <div class="inner-sidebar">
                             <div class="sidebar-nav widget">
                                 <ul>
-                                    <li class="count wow animate__animated animate__fadeInUp" data-wow-delay="200ms" data-wow-duration="900ms"><a href="services.html" class="mb-2" style="border-radius: 50px;">Manpower Security Services </a></li>
-                                    <li class="count wow animate__animated animate__fadeInUp" data-wow-delay="400ms" data-wow-duration="900ms"><a href="security-consultations.html" class="mb-2" style="border-radius: 50px;">Security Consultations</a></li>
-                                    <li class="count wow animate__animated animate__fadeInUp" data-wow-delay="600ms" data-wow-duration="900ms"><a href="cctv&alarm-systems.html" class="mb-2" style="border-radius: 50px;">CCTV & Alarm Systems</a></li>
-                                    <li class="count wow animate__animated animate__fadeInUp" data-wow-delay="800ms" data-wow-duration="900ms"><a class="active-service mb-2" href="home&office-automation.html" style="border-radius: 50px;">Home & Office Automation</a></li>
+                                    <li class="count wow animate__animated animate__fadeInUp" data-wow-delay="200ms"
+                                        data-wow-duration="900ms"><a href="services.html" class="mb-2"
+                                            style="border-radius: 50px;">Manpower Security Services </a></li>
+                                    <li class="count wow animate__animated animate__fadeInUp" data-wow-delay="400ms"
+                                        data-wow-duration="900ms"><a href="security-consultations.html" class="mb-2"
+                                            style="border-radius: 50px;">Security Consultations</a></li>
+                                    <li class="count wow animate__animated animate__fadeInUp" data-wow-delay="600ms"
+                                        data-wow-duration="900ms"><a href="cctv&alarm-systems.html" class="mb-2"
+                                            style="border-radius: 50px;">CCTV & Alarm Systems</a></li>
+                                    <li class="count wow animate__animated animate__fadeInUp" data-wow-delay="800ms"
+                                        data-wow-duration="900ms"><a class="active-service mb-2"
+                                            href="home&office-automation.html" style="border-radius: 50px;">Home &
+                                            Office Automation</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -85,26 +122,84 @@
                             </div>
                         </div>
                         <div class="row mb-5">
-                            <div class="col-md-12 wow animate__fadeIn" data-wow-delay="100ms" data-wow-duration="1000ms">
-                                <h4 class="down-line-primary text-secondary text-start mb-20">Home & Office Automation</h4>
-                                <p>Home and office automation systems are a cutting-edge technology that can revolutionize the way we live and work. Home and office automation systems are designed to automate various tasks and functions, making them more convenient, efficient, and user-friendly. They allow homeowners and businesses to control various aspects of their homes and offices, such as lighting, heating, ventilation, air conditioning, security, and entertainment systems, from a single device or application.<br><br>
-                                    Home and office automation systems offer several benefits that make them an attractive option for homeowners and businesses. <br><br>
-                                    ●	For homeowners, home automation systems can provide convenience and comfort, enabling them to control their homes' environment and appliances from their smartphones or tablets. <br><br>
-                                    ●	Office automation systems can improve productivity and efficiency, allowing employees to focus on their core tasks by automating routine tasks and functions.<br><br></p>
+                            <div class="col-md-12 wow animate__fadeIn" data-wow-delay="100ms"
+                                data-wow-duration="1000ms">
+                                <h4 class="down-line-primary text-secondary text-start mb-20">Home & Office Automation
+                                </h4>
+                                <p>Home and office automation systems are a cutting-edge technology that can
+                                    revolutionize the way we live and work. Home and office automation systems are
+                                    designed to automate various tasks and functions, making them more convenient,
+                                    efficient, and user-friendly. They allow homeowners and businesses to control
+                                    various aspects of their homes and offices, such as lighting, heating, ventilation,
+                                    air conditioning, security, and entertainment systems, from a single device or
+                                    application.<br><br>
+                                    Home and office automation systems offer several benefits that make them an
+                                    attractive option for homeowners and businesses. <br><br>
+                                    ● For homeowners, home automation systems can provide convenience and comfort,
+                                    enabling them to control their homes' environment and appliances from their
+                                    smartphones or tablets. <br><br>
+                                    ● Office automation systems can improve productivity and efficiency, allowing
+                                    employees to focus on their core tasks by automating routine tasks and
+                                    functions.<br><br></p>
                             </div>
-                            <h4 class="down-line-primary text-secondary text-start mb-20">Benefits of Home & Office Automation </h4>
-                                <p>Home and office automation systems offer a wide range of benefits to homeowners and businesses, including:<br><br>
-                                    1. Convenience: One of the most significant benefits of home and office automation systems is convenience. These systems allow homeowners and businesses to control various devices and appliances, such as lighting, heating, cooling, and security systems, from a single device or application, making it easier and more convenient to manage their environment.<br><br>
-                                    2. Energy efficiency: Home and office automation systems can help reduce energy consumption, leading to significant cost savings on utility bills. By automating heating, cooling, and lighting systems, these systems can help reduce energy waste and promote a more sustainable environment.<br><br>
-                                    3. Increased security: Home and office automation systems can also enhance security by providing remote access and monitoring capabilities. With these systems, homeowners and businesses can monitor their premises remotely, receive alerts about potential security breaches, and take action if necessary.<br><br>
-                                    4. Improved productivity: For businesses, home and office automation systems can improve productivity and efficiency by automating routine tasks and functions, allowing employees to focus on their core tasks.<br><br>
-                                    5. Customization: Home and office automation systems can be customized to meet the specific needs and preferences of homeowners and businesses. This means that users can tailor the system to their unique lifestyles and work processes, enhancing the system's usefulness and effectiveness.<br><br>
-                                    6. User-friendliness: Home and office automation systems are designed to be intuitive and user-friendly, making them accessible to everyone, regardless of their technical expertise.<br><br>
-                                    7. Increased home value: Installing a home automation system can increase the value of a home, making it more attractive to potential buyers in the future.
-                                </p>
-                            </div>
+                            <h4 class="down-line-primary text-secondary text-start mb-20">Benefits of Home & Office
+                                Automation </h4>
+                            <ul class="benefits-list pl-20">
+                                <li>
+                                    <span class="icon"><i class="fas fa-check-circle"></i></span>
+                                    <p>Home and office automation systems offer a wide range of benefits to homeowners
+                                        and businesses, including:</p>
+                                </li>
+                                <li>
+                                    <span class="icon"><i class="fas fa-check-circle"></i></span>
+                                    <p>Convenience: One of the most significant benefits of home and office automation
+                                        systems is convenience. These systems allow homeowners and businesses to control
+                                        various devices and appliances, such as lighting, heating, cooling, and security
+                                        systems, from a single device or application, making it easier and more
+                                        convenient to manage their environment.</p>
+                                </li>
+                                <li>
+                                    <span class="icon"><i class="fas fa-check-circle"></i></span>
+                                    <p>Energy efficiency: Home and office automation systems can help reduce energy
+                                        consumption, leading to significant cost savings on utility bills. By automating
+                                        heating, cooling, and lighting systems, these systems can help reduce energy
+                                        waste and promote a more sustainable environment.</p>
+                                </li>
+                                <li>
+                                    <span class="icon"><i class="fas fa-check-circle"></i></span>
+                                    <p>Increased security: Home and office automation systems can also enhance security
+                                        by providing remote access and monitoring capabilities. With these systems,
+                                        homeowners and businesses can monitor their premises remotely, receive alerts
+                                        about potential security breaches, and take action if necessary.</p>
+                                </li>
+                                <li>
+                                    <span class="icon"><i class="fas fa-check-circle"></i></span>
+                                    <p>Improved productivity: For businesses, home and office automation systems can
+                                        improve productivity and efficiency by automating routine tasks and functions,
+                                        allowing employees to focus on their core tasks.</p>
+                                </li>
+                                <li>
+                                    <span class="icon"><i class="fas fa-check-circle"></i></span>
+                                    <p>Customization: Home and office automation systems can be customized to meet the
+                                        specific needs and preferences of homeowners and businesses. This means that
+                                        users can tailor the system to their unique lifestyles and work processes,
+                                        enhancing the system's usefulness and effectiveness.</p>
+                                </li>
+                                <li>
+                                    <span class="icon"><i class="fas fa-check-circle"></i></span>
+                                    <p>User-friendliness: Home and office automation systems are designed to be
+                                        intuitive and user-friendly, making them accessible to everyone, regardless of
+                                        their technical expertise.</p>
+                                </li>
+                                <li>
+                                    <span class="icon"><i class="fas fa-check-circle"></i></span>
+                                    <p>Increased home value: Installing a home automation system can increase the value
+                                        of a home, making it more attractive to potential buyers in the future.</p>
+                                </li>
+                            </ul>
                         </div>
-                        <!-- <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 gy-5 thumb-style-4">
+                    </div>
+                    <!-- <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 gy-5 thumb-style-4">
                             <div class="col">
                                 <div class="entry-wrapper d-flex flex-column align-items-center text-center transition-all">
                                     <div class="entry-thumbnail-wrapper">
@@ -157,7 +252,7 @@
                                 </div>
                             </div>
                         </div> -->
-                        <!-- <div class="row accordion right-plus border-style-none mt-5">
+                    <!-- <div class="row accordion right-plus border-style-none mt-5">
                             <div class="col">
                                 <div id="accordion-1">
                                     <div class="accordion-item bg-light">
@@ -207,85 +302,93 @@
                                 </div>
                             </div>
                         </div> -->
-                    </div>
                 </div>
             </div>
         </div>
-        <!--============================== Our story every year Section End ==============================-->
+    </div>
+    <!--============================== Our story every year Section End ==============================-->
 
 
-        <!--============================== Icon Grid Thumb 1 Sction Start ==============================-->
-        <div class="full-row overlay-secondary paraxify" style="background-image: url(assets/images/background/2.png); background-repeat: no-repeat;">
-            <div class="container">
-                <div class="row row-cols-md-3 row-cols-1 gy-5">
-                    <div class="col">
-                        <div class="entry-wrapper d-flex flex-column align-items-center justify-content-start text-center text-white transition-all">
-                            <div class="entry-thumbnail-wrapper">
-                                <div class="post-thumbnail overflow-hidden">
-                                    <i class="icon flaticon-experience flat-45 text-white"></i>
-                                </div>
-                            </div>
-                            <div class="entry-content-wrapper pt-20">
-                                <div class="entry-header">
-                                    <h4 class="entry-title text-white mb-4">27 Years of Experience</h4>
-                                </div>
-                                <div class="entry-content">
-                                    <p>Secure Security was founded by Mr. Sumith Fonseka, an Ex-Commando Regiment Officer in 1996 and has held a prestigious service since then.</p>
-                                </div>
+    <!--============================== Icon Grid Thumb 1 Sction Start ==============================-->
+    <div class="full-row overlay-secondary paraxify"
+        style="background-image: url(assets/images/background/2.png); background-repeat: no-repeat;">
+        <div class="container">
+            <div class="row row-cols-md-3 row-cols-1 gy-5">
+                <div class="col">
+                    <div
+                        class="entry-wrapper d-flex flex-column align-items-center justify-content-start text-center text-white transition-all">
+                        <div class="entry-thumbnail-wrapper">
+                            <div class="post-thumbnail overflow-hidden">
+                                <i class="icon flaticon-experience flat-45 text-white"></i>
                             </div>
                         </div>
-                    </div>
-                    <div class="col">
-                        <div class="entry-wrapper d-flex flex-column align-items-center justify-content-start text-center text-white transition-all">
-                            <div class="entry-thumbnail-wrapper">
-                                <div class="post-thumbnail overflow-hidden">
-                                    <i class="icon flaticon-experience flat-45 text-white"></i>
-                                </div>
+                        <div class="entry-content-wrapper pt-20">
+                            <div class="entry-header">
+                                <h4 class="entry-title text-white mb-4">27 Years of Experience</h4>
                             </div>
-                            <div class="entry-content-wrapper pt-20">
-                                <div class="entry-header">
-                                    <h4 class="entry-title text-white mb-4">100% Satisfaction</h4>
-                                </div>
-                                <div class="entry-content">
-                                    <p>We ensure that our employees are trained up to standard to provide 100% customer satisfaction. As a service provider we always consider our customer satisfaction as highest priority.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="entry-wrapper d-flex flex-column align-items-center justify-content-start text-center text-white transition-all">
-                            <div class="entry-thumbnail-wrapper">
-                                <div class="post-thumbnail overflow-hidden">
-                                    <i class="icon flaticon-24-hours flat-45 text-white"></i>
-                                </div>
-                            </div>
-                            <div class="entry-content-wrapper pt-20">
-                                <div class="entry-header">
-                                    <h4 class="entry-title text-white mb-4">24/7 Security Service</h4>
-                                </div>
-                                <div class="entry-content">
-                                    <p>Our services are provided as a continuous 24/7 service to ensure that the customer is in safe hands in every step. We provide a range of services to our customers.</p>
-                                </div>
+                            <div class="entry-content">
+                                <p>Secure Security was founded by Mr. Sumith Fonseka, an Ex-Commando Regiment Officer in
+                                    1996 and has held a prestigious service since then.</p>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="col">
+                    <div
+                        class="entry-wrapper d-flex flex-column align-items-center justify-content-start text-center text-white transition-all">
+                        <div class="entry-thumbnail-wrapper">
+                            <div class="post-thumbnail overflow-hidden">
+                                <i class="icon flaticon-experience flat-45 text-white"></i>
+                            </div>
+                        </div>
+                        <div class="entry-content-wrapper pt-20">
+                            <div class="entry-header">
+                                <h4 class="entry-title text-white mb-4">100% Satisfaction</h4>
+                            </div>
+                            <div class="entry-content">
+                                <p>We ensure that our employees are trained up to standard to provide 100% customer
+                                    satisfaction. As a service provider we always consider our customer satisfaction as
+                                    highest priority.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div
+                        class="entry-wrapper d-flex flex-column align-items-center justify-content-start text-center text-white transition-all">
+                        <div class="entry-thumbnail-wrapper">
+                            <div class="post-thumbnail overflow-hidden">
+                                <i class="icon flaticon-24-hours flat-45 text-white"></i>
+                            </div>
+                        </div>
+                        <div class="entry-content-wrapper pt-20">
+                            <div class="entry-header">
+                                <h4 class="entry-title text-white mb-4">24/7 Security Service</h4>
+                            </div>
+                            <div class="entry-content">
+                                <p>Our services are provided as a continuous 24/7 service to ensure that the customer is
+                                    in safe hands in every step. We provide a range of services to our customers.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <!--============================== Icon Grid Thumb 1 Sction End ==============================-->
+    </div>
+    <!--============================== Icon Grid Thumb 1 Sction End ==============================-->
 
 
-        <!--============================== Footer 1 Section Start ==============================-->
-        <my-footer></my-footer>
-        <!--============================== Footer 1 Section End ==============================-->
+    <!--============================== Footer 1 Section Start ==============================-->
+    <my-footer></my-footer>
+    <!--============================== Footer 1 Section End ==============================-->
 
-        <!--============================== Footer Bottom 1 Section Start ==============================-->
-        <my-footer-bottom></my-footer-bottom>
-        <!--============================== Footer Bottom 1 Section End ==============================-->
+    <!--============================== Footer Bottom 1 Section Start ==============================-->
+    <my-footer-bottom></my-footer-bottom>
+    <!--============================== Footer Bottom 1 Section End ==============================-->
 
-        <!-- Scroll to top -->
-        <my-scroll></my-scroll>
-        <!-- End Scroll To top -->
+    <!-- Scroll to top -->
+    <my-scroll></my-scroll>
+    <!-- End Scroll To top -->
     </div>
 
     <!-- Javascripts -->

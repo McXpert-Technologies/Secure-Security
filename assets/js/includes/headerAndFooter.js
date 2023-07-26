@@ -151,6 +151,7 @@ class MyFooter extends HTMLElement {
                             <li><a href="services.html"><span class="text">Services</span></a></li>
                             <li><a href="client.html"><span class="text">Clientele</span></a></li>
                             <li><a href="contact.html"><span class="text">Contact Us</span></a></li>
+                            <li><a target="_blank" href="quote.html"><span class="text">Get a Quoatation</span></a></li>
                             
                         </ul>
                     </div>

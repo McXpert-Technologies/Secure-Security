@@ -21,7 +21,7 @@ class MyHeder extends HTMLElement {
                                 <a class="nav-link" href="about.html">About Us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="services.html">services</a>
+                                <a class="nav-link" href="services.html">Services</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="client.html">Clientele</a>
@@ -130,7 +130,7 @@ class MyFooter extends HTMLElement {
                 <div class="col">
                     <div class="footer-widget">
                         <div class="footer-logo mb-4">
-                            <a href="#"><img src="assets/images/logo/Flogo.png" alt="Image not found!"></a>
+                            <a href="https://www.securesecurity.lk/"><img src="assets/images/logo/Flogo.png" alt="Image not found!"></a>
                         </div>
                         <p style="padding-right:30px; padding-top: 20px;">We are a team of dedicated professionals who specialize in providing top-notch security solutions.</p>
                     </div>

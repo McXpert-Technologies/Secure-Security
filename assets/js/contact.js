@@ -83,6 +83,11 @@ function validateItemForm() {
         return "Enter Email.";
     }
 
+    if (IsEmail($("#email").val().trim()) == false) {
+        $('#invalid_email').show();
+        return "Enter valid emaiil.";
+    }
+
     if ($("#subject").val().trim() == "") {
         return "Enter your Subject.";
     }
@@ -91,4 +96,14 @@ function validateItemForm() {
         return "Enter your message.";
     }
     return true;
+}
+
+function IsEmail(email) {
+    var regex = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+    if (!regex.test(email)) {
+        return false;
+    }
+    else {
+        return true;
+    }
 }

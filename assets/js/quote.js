@@ -12,6 +12,8 @@ $("#submit").click(function (){
 
     let name = document.getElementById('name').value;
     let companyName = document.getElementById('companyName').value;
+    let email = document.getElementById('email').value;
+    let phoneNum = document.getElementById('phoneNum').value;
     let industry = document.getElementById('industry').value;
     let location = document.getElementById('location').value;
     let message = document.getElementById('message').value;
@@ -29,6 +31,8 @@ $("#submit").click(function (){
         id:id,
         name:name,
         companyName:companyName,
+        email:email,
+        phoneNum:phoneNum,
         industry:industry,
         location:location,
         message:message,
@@ -55,6 +59,8 @@ $("#submit").click(function (){
 
                 document.getElementById('name').value = "";
                 document.getElementById('companyName').value = "";
+                document.getElementById('email').value = "";
+                document.getElementById('phoneNum').value = "";
                 document.getElementById('industry').value = "";
                 document.getElementById('location').value = "";
                 document.getElementById('message').value = "";
@@ -78,12 +84,31 @@ $("#submit").click(function (){
 
 function validateItemForm() {
 
+    var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+
     if ($("#name").val().trim() == "") {
         return "Enter Name.";
     }
 
     if ($("#companyName").val().trim() == "") {
         return "Enter company name.";
+    }
+
+    if ($("#email").val().trim() == "") {
+        return "Enter email.";
+    }
+    
+    if (IsEmail($("#email").val().trim()) == false) {
+        $('#invalid_email').show();
+        return "Enter valid emaiil.";
+    }
+
+    if ($("#phoneNum").val().trim() == "") {
+        return "Enter phone number.";
+    }
+    
+    if (IsPhoneNum($("#phoneNum").val().trim()) == false) {
+        return "Enter valid phone number.";
     }
 
     if ($("#industry").val().trim() == "") {
@@ -97,4 +122,23 @@ function validateItemForm() {
         return "Enter your message.";
     }
     return true;
+}
+
+function IsEmail(email) {
+    var regex = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+    if (!regex.test(email)) {
+        return false;
+    }
+    else {
+        return true;
+    }
+}
+function IsPhoneNum(number) {
+    var filter = /^[0]*(\d{9})*\s*$/;
+    if (!filter.test(number)) {
+        return false;
+    }
+    else {
+        return true;
+    }
 }

@@ -4,6 +4,8 @@ if ($_POST["id"] == "quote"){
 
     $name = $_POST['name'];
     $companyName = $_POST['companyName'];
+    $email = $_POST['email'];
+    $phoneNum = $_POST['phoneNum'];
     $industry = $_POST['industry'];
     $location = $_POST['location'];
     $message = $_POST['message'];
@@ -15,6 +17,7 @@ if ($_POST["id"] == "quote"){
 
     $emailBody .= "Client <b>Name :</b> $name <br>";
     $emailBody .= "Client <b>Company Name :</b> $companyName <br>";
+    $emailBody .= "Client <b>Phone Number :</b> $phoneNum <br>";
     $emailBody .= "Inquiry <b>Industry :</b> $industry <br>";
     $emailBody .= "Inquiry <b>Location :</b> $location <br>";
     $emailBody .= "Client <b>Message :</b> $message <br>Thank You !";

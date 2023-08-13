@@ -136,9 +136,9 @@ class MyFooter extends HTMLElement {
                     </div>
                     <div class="footer-widget">
                         <div class="transparent-social-media-1 list-color-light hover-list-color-primary hyperlink-mr-20">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a target=”_blank” href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a target=”_blank” href="#"><i class="fab fa-twitter"></i></a>
+                            <a target=”_blank” href="#"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>
